@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们 - One AI Paper 客服</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f0f8ff, #d8bfd8);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+            height: 100vh;
+        }
+        h1, p {
+            color: #333;
+            animation: fadeInDown 1s;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            animation: fadeInUp 1s;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .wechat-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .wechat-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            animation: zoomIn 1s;
+            max-width: 300px;
+            flex: 1 1 300px;
+            backdrop-filter: blur(5px);
+            text-align: center;
+        }
+        .wechat-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .wechat-name {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #555;
+            word-wrap: break-word;
+            text-align: center;
+        }
+        .info {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #444;
+            animation: fadeInUp 1s;
+            max-width: 600px;
+            margin: 20px auto 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .info strong {
+            color: #000;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes zoomIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>联系我们</h1>
+    <p>如需帮助，请扫描以下客服微信二维码，我们将竭诚为您服务。</p>
+    <div class="wechat-container">
+        <div class="wechat-card">
+            <img src="IMG_9159.JPG" alt="客服微信1">
+            <div class="wechat-name">客服微信号：<strong>WeChatID_1</strong></div>
+        </div>
+        <div class="wechat-card">
+            <img src="客服微信二维码2.png" alt="客服微信2">
+            <div class="wechat-name">客服微信号：<strong>WeChatID_2</strong></div>
+        </div>
+    </div>
+    <div class="info">
+        <p>API 站点额度领取、ChatGPT Plus 代充、售后问题，请<strong>联系客服</strong>。</p>
+        <p>商业合作，欢迎<strong>咨询</strong>。</p>
+    </div>
+</body>
+</html>
